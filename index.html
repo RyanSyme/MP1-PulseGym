@@ -12,7 +12,7 @@
 <body>
     <!--================================================ Nav ========================================================-->
     <!--Navbar toggler inspired by code institute whiskeydrop lesson-->
-        <nav class="navbar navbar-light navbar-expand-sm">
+        <nav class="navbar navbar-light navbar-expand-sm fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/Pulse-Image-by-Claire-Dela-Cruz-from-Pixabay-New.png" width="50" height="50" alt="Pulse Logo" loading="lazy">
             </a>
@@ -38,13 +38,15 @@
     <!--================================================ Nav End ====================================================-->
     <article>
     <!--================================================ Callout ====================================================-->
-        <div class="container callout-container" id="home">
+        <div class="container-fluid callout-container" id="home">
+        <div class="opaque-overlay">&nbsp;</div>
             <div class="row">
                 <div class="col-12 my-5 callout">
                     <section class="jumbotron text-center">
-                        <h1>For all of your fitness needs.</h1>
-                        <p class="lead">Keep your finger on the pulse and join our Gym today!</p>
-                        <button class="btn btn-success btn-lg">Sign Up!</button>
+                        <h1 class="jumbotron-header">For all of your fitness needs.</h1>
+                        <hr class="block-divider">
+                        <p class="jumbotron-lead">Keep your finger on the pulse and join our Gym today!</p>
+                        <button class="btn btn-lg btn-call">Sign Up!</button>
                     </section>
                 </div>
             </div>
